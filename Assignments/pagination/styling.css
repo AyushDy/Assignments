@@ -4,7 +4,7 @@ body{
     background-color:rgb(255, 201, 231)PAGE ;
 }
 
-.container{
+.page-container{
     height: 101vh;
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@ body{
     justify-content: center;
     width: 95vw;
     /* border: 1px solid red; */
-    height: 10vh;
+    height: 7vh;
     font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -44,6 +44,18 @@ body{
     cursor: pointer;
     box-shadow: 0 0 1px rgb(97, 97, 97);
 }
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 5px;
+    margin: 3px;
+    box-shadow: 0 0 1px rgb(97, 97, 97);
+}
+
 .box{
     /* border-color: rgb(0, 0, 0); */
     color: rgb(0, 0, 0);
@@ -65,4 +77,41 @@ body{
     background-color: rgb(185, 185, 185);
 
 }
+
+.page-list{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    align-items: center;
+}
+
+select {
+    padding: 3px;
+    box-shadow: 0 0 2px rgb(158, 158, 158);
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+select option:checked {
+    background-color: #ff9dd1; 
+    color: #ffffff; 
+
+}
+
+select::-webkit-scrollbar{
+    width: 15px;
+}
+
+select::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 14, 147);
+    border-radius: 5px;
+}
+
+select::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
 
